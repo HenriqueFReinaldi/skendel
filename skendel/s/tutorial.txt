@@ -1,0 +1,14 @@
+se um "w" for posto antes de uma expressão ( w<#a><til#b> ), o conteúdo da análise será armazenado em um arquivo novo.
+Caso contrário, a análise será exibida no terminal.
+
+<#>      --> armazena qualquer coisa igual ao que segue "#".
+
+<p???>   --> armazena qualquer pontuação                      || usa-se um "?" por pontuação.
+<d???>   --> armazena qualquer digito que segue "d".          || usa-se um "?" por digito.
+<u???>   --> armazena qualquer caractere do alfabeto          || usa-se um "?" por letra.
+<a???>   --> armazena qualquer caractere do alfabeto e numero || usa-se um "?" por caractere.
+<g???>   --> armazena qualquer coisa que esteja ai em cima.   || usa-se um "?" por coisa.
+P.S.: Modifique o conteúdo do arquivo biblioteca.txt para alterar o que os comandos de cima procuram. Ela está organizada
+como explicado (linha 0 = pontuação, linha 1 = digitos...).
+
+<til#> --> armazena quaisquer caracteres desconhecidos até encontrar algo igual ao que segue "#".
